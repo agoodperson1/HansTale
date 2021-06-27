@@ -1,0 +1,59 @@
+David:
+1. player moveset (four directions) 			// done
+2. character attack moveset
+3. character weapon (potential arrow)
+4. adding stamina system so that the player can not dodge roll many times in a row
+5. arrow still can not shoot through pond
+5. arrow knowck back
+6. stronger knock back
+7. monster attack animation
+8. monster death animation
+9. player death animation
+5. cave 5 computer text pop up
+6. death couter
+
+niu tou ren charge cool down time
+pause menu
+spawn location
+
+Han:
+1. cave background
+
+
+
+Bugs that need to be fixed:
+
+if monster pushes player against a wall, monster can no longer damage player because he is 
+already inside the player's collision box and can not move
+
+player should not move when there is skill card
+
+player can not immediately roll after attacking
+
+boss ultimate
+
+cave 2 ghost sprite renderer disactive invisible
+
+
+Idea for Skill Card:
+
+More damage
+More knockback (increase thrust in code)
+Ice Arrow
+More Health
+Faster Stamina Regen
+Double Arrow
+Triple Shot
+life steal
+
+sword damage
+arrow damage
+
+max health
+stamina regen
+
+double arrow
+triple shot
+
+life steal
+more knockback

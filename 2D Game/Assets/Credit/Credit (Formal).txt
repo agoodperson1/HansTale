@@ -1,0 +1,169 @@
+Developer:
+Timiport
+A Good Person
+
+
+
+Below are listed sources for assets used in this game. It is through the generosity of these kind individuals that makes this game comes to life.
+
+
+
+Character Artwork:
+
+"8-direction Top Down Character" by GameKrazzy
+CC BY
+https://gamekrazzy.itch.io/8-direction-top-down-character
+
+"Scorpion Pixel Art" by Master Blazter
+CC By
+https://master-blazter.itch.io/scorpion-pixel-art
+
+"Animated Slimes 16x16 px" by Stealthix
+CC 0
+https://stealthix.itch.io/animated-slimes
+
+"Grotto Escape Chibi Monsters" by ansimuz 
+CC by
+https://ansimuz.itch.io/grotto-escape-chibi-monsters
+
+"2D Pixel Dungeon Asset Pack" by Pixel_Poem
+Both free and commercial use
+https://pixel-poem.itch.io/dungeon-assetpuck
+
+"Imp & Axe Demon Pixel Art Character" by Sanctumpixel
+Use and sell game allowed
+https://sanctumpixel.itch.io/imp-axe-demon-pixel-art-character
+
+"Bouncing-Blue-Blob" by cactusturtle
+free to use if credited
+https://cactusturtle.itch.io/bouncing-blue-blob?download
+
+
+
+Music:
+"The Game Creator's Pack" by Jonathan So
+CC 0
+https://jonathan-so.itch.io/creatorpack
+
+"Variety Music Pack" by Jonathan So
+CC 0
+https://jonathan-so.itch.io/variety-music-pack
+
+"MONOTONE" by VOiD1 Gaming
+Sell and distribute with the asset
+https://void1gaming.itch.io/monotone
+
+"Swords Collide" by Sound Explorer
+CC 3
+https://soundbible.com/1980-Swords-Collide.html#
+
+"slime SFX" by rubberduck
+CC 0
+https://opengameart.org/content/40-cc0-water-splash-slime-sfx
+
+"Rain Inside House" by Mark DiAngelo
+CC 3
+https://soundbible.com/2065-Rain-Inside-House.html
+
+"Swoosh 3" by man
+Sampling Plus 1.0
+https://soundbible.com/706-Swoosh-3.html
+
+"sword slash into flesh 3 sound effect" by freesoundeffect
+"You just need to make sure the sounds are part of the app or game and not distributed as a separate sounds effects directory."
+https://www.freesoundeffects.com/licence.php
+
+"Thunder and Rain" by The Phantom Monk
+Royalty Free
+https://soundcloud.com/thephantommonk/sets/rain-and-thunder-1
+
+
+
+Animation: 
+"animated display static", Art by Cameron 'cron' Fraser
+CC BY 3.0, OGA BY 3.0
+https://opengameart.org/content/animated-display-static
+
+
+UI:
+
+"Classic Sword" by DooM
+CC BY 3.0
+https://opengameart.org/content/classic-sword
+
+"FANTASY GUI" by Melle
+CC 0
+https://opengameart.org/content/fantasy-gui-0
+
+"Simple Wooden Bow and Arrows" by Arydian
+https://arydian.itch.io/simple-wooden-bow-and-arrows
+
+"Health and Mana Bars" by lancel
+CC BY 3.0
+https://opengameart.org/content/health-and-mana-bars
+
+"UI Pack buttons and dialogue" by Iron Star Media
+CC BY 3.0
+https://opengameart.org/content/ui-pack-buttons-and-dialogue
+
+"Medieval Sword" by Lexatchison
+CC 0
+https://opengameart.org/content/medieval-sword
+
+"Blank Cards CCG Type" by Kjell R Granlund III
+CC BY 3.0
+https://opengameart.org/content/blank-cards-ccg-type
+
+
+
+
+Map:
+
+"32x32 Dungeon Tileset" by Stealthix
+CC 0
+https://opengameart.org/content/32x32-dungeon-tileset
+
+"Whispers of Avalon: Grassland Tileset" by Leonard Pabin
+CC by 3.0
+https://opengameart.org/content/whispers-of-avalon-grassland-tileset
+
+"2d-techdemos" by RyotaMurohoshi, ChuanXin-Unity, JuhaKiili, foobraco, and johnsoncodehk
+MIT License
+https://github.com/Unity-Technologies/2d-techdemos
+
+"Basic map 32x32" by Ivan Voirol
+CC by 3.0
+https://opengameart.org/content/basic-map-32x32-by-ivan-voirol
+
+"2D Magic Land dungeon 1" by Szadi art
+License for Everyone
+https://szadiart.itch.io/2d-magic-lands-dung1
+
+"Houses Pack" by Szadi art
+Personal and Commercial Use
+https://szadiart.itch.io/houses-pack
+
+"gallet-city" by Adam Saltsman
+public domain, personal and commercial Use
+https://adamatomic.itch.io/gallet-city
+
+"PIPOYA FREE RPG TILESET 32x32 Pixel" by Pipoya
+For commercial or personal use
+https://pipoya.itch.io/pipoya-rpg-tileset-32x32
+
+"Dead Swamp Asset Pack" by Sevarihk
+use the assets in non-commercial or commercial projects
+https://sevarihk.itch.io/dead-swamp-tileset
+
+
+Sprite inspiration:
+
+"self-portrait" by Adam Saltsman
+https://adamatomic.itch.io/self-portrait
+
+
+Font:
+Oleaguid Font by Arynoc
+CC BY 3.0
+https://opengameart.org/content/oleaguid-font
+

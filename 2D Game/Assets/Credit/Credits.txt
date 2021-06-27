@@ -1,0 +1,17 @@
+Sprite animation
+*https://master-blazter.itch.io/scorpion-pixel-art
+*https://stealthix.itch.io/animated-slimes
+*https://ansimuz.itch.io/grotto-escape-chibi-monsters
+*https://pixel-poem.itch.io/dungeon-assetpuck
+*https://sanctumpixel.itch.io/imp-axe-demon-pixel-art-character
+
+Tile Map
+*https://opengameart.org/content/32x32-dungeon-tileset
+*https://opengameart.org/content/whispers-of-avalon-grassland-tileset
+*https://github.com/Unity-Technologies/2d-techdemos
+*https://opengameart.org/content/basic-map-32x32-by-ivan-voirol
+*https://szadiart.itch.io/2d-magic-lands-dung1
+*https://szadiart.itch.io/houses-pack
+*https://adamatomic.itch.io/gallet-city
+*https://adamatomic.itch.io/self-portrait
+*https://pipoya.itch.io/pipoya-rpg-tileset-32x32

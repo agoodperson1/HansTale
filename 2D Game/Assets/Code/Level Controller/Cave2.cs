@@ -57,7 +57,7 @@ public class Cave2 : MonoBehaviour
 	}
 
 	public void LifeSteal() {
-		KnockBack.lifeSteal = true;
+		KnockBack.lifeSteal += 0.3f;
 		skillCard.SetActive(false);
 		Time.timeScale = 1f;
 	}

@@ -714,7 +714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9daf206b0060f4eb3b8a2fd110c2311f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  content: apple
+  content: 
   nextTrigger: {fileID: 471827692}
   fizz: {fileID: 0}
   boxFly: {fileID: 0}

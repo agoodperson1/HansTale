@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
 
         KnockBack.swordDamage = 2f;
         KnockBack.arrowDamage = 2f;
-        KnockBack.lifeSteal = false;
+        KnockBack.lifeSteal = 0f;
         KnockBack.swordThrust = 4f;
         KnockBack.arrowThrust = 2f;
 

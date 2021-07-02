@@ -514,30 +514,6 @@ public class PlayerMovement : MonoBehaviour
 		return transform;
 	}
 
-	// private bool CanMove(Vector3 direction, float distance) {
-	// 	return Physics2D.Raycast(transform.position, direction, distance).collider == null;
-	// }
-
-	// private bool TryMove(Vector3 baseMoveDirection, float distance) {
-	// 	Vector3 moveDirection = baseMoveDirection;
-	// 	bool canMove = CanMove(moveDirection, distance);
-	// 	if (!canMove) {
-	// 		moveDirection = new Vector3(baseMoveDirection.x, 0f).normalized;
-	// 		canMove = moveDirection.x != 0f && CanMove(moveDirection, distance);
-	// 		if (!canMove) {
-	// 			moveDirection = new Vector3 (0f, baseMoveDirection.y).normalized;
-	// 			canMove = moveDirection.y != 0f && CanMove(moveDirection, distance);
-	// 		}
-	// 	}
-
-	// 	if (canMove) {
-	// 		change = moveDirection;
-	// 		transform.position += moveDirection * distance;
-	// 		return true;
-	// 	} else {
-	// 		return false;
-	// 	}
-	// }
 
 	private void OnTriggerStay2D(Collider2D other) {
 		

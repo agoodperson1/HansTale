@@ -53,7 +53,9 @@ public class EnemyKnockBack : MonoBehaviour
             }
             
             
-            healthBar.Damage(damage);
+            if (NiuTouRenCharge.niuAbility == false) {
+                healthBar.Damage(damage);
+            }
         }
 
         /* if (other.gameObject.CompareTag("Monster")) {

@@ -12,7 +12,11 @@ public class autoDestroy : MonoBehaviour
     {
         destroyTimer -= Time.deltaTime;
         if (destroyTimer <= 0f && destroyTimer > targetDestroyTime) {
-            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+
+            SpriteRenderer area = gameObject.GetComponent<SpriteRenderer>();
+            if (area != null) {
+                area.enabled = false;
+            }
         } else if (destroyTimer <= targetDestroyTime) {
             Destroy(gameObject);
         }

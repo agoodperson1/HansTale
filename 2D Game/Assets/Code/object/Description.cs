@@ -21,7 +21,7 @@ public class Description : MonoBehaviour
 	}
 
 	void Update() {
-		if (pop) {
+		if (pop && content.Length > 0) {
 			if (Input.GetKeyDown("e")) {
 				if (open) {
 					pop = false;
@@ -30,12 +30,12 @@ public class Description : MonoBehaviour
 					popAnim.SetBool("pop", false);
 					StartCoroutine(close(popAnim));
 					if (mirrorBool == 1 && item == "mirro") {
-		ending.SetActive(true);
-		boxFly.SetActive(true);
-		fizz.SetActive(true);
-		mirrorBool = 0;
-		item = "stop";
-	}
+						ending.SetActive(true);
+						boxFly.SetActive(true);
+						fizz.SetActive(true);
+						mirrorBool = 0;
+						item = "stop";
+					}
 				} else {
 					open = true;
 					PopUpSystem popSystem = GameObject.FindGameObjectWithTag("Controller").GetComponent<PopUpSystem>();
@@ -219,7 +219,7 @@ public class Description : MonoBehaviour
 
 	private void OnTriggerExit2D(Collider2D collision) {
 		
-			pop = true;
+			pop = false;
 			open = false;
 			Animator popAnim = GameObject.FindGameObjectWithTag("PopUp").GetComponent<Animator>();
 			popAnim.SetBool("pop", false);

@@ -13,10 +13,11 @@ public class NiuTouRenCharge : MonoBehaviour
 	public GameObject rectAttackRange;
 
 	private float coolDownTime = 2f;
-	private float nextFireTime = 0;
+	private float nextFireTime = 2f;
 	private bool setOnce = true;
 	private bool firstTrigger = true; 		// make sure the first ability is not area attack
 	public static bool wield = false;
+	public static bool niuAbility = false;
 
     // Start is called before the first frame update
 	void Start()
@@ -76,6 +77,7 @@ public class NiuTouRenCharge : MonoBehaviour
 	}
 
 	private void wieldWeaponAnim(Vector2 target) {
+		niuAbility = true;
 		Vector2 axis = new Vector2(1f, 0f);
 		float angle = Vector2.SignedAngle(axis, target);
 		if (angle <= 90f && angle <= -90f) {
@@ -98,6 +100,7 @@ public class NiuTouRenCharge : MonoBehaviour
 		yield return new WaitForSeconds(wieldTime);
 		wield = true;
 		movement.enabled = true;
+		niuAbility = false;
 		rb.mass = 3;
 		bullAnimator.SetBool("chargeRight", false);
 		bullAnimator.SetBool("chargeLeft", false);

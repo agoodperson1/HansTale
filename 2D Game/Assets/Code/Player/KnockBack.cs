@@ -16,7 +16,7 @@ public class KnockBack : MonoBehaviour
 
 	public static float swordDamage = 2f;
 	public static float arrowDamage = 2f;
-	public static bool lifeSteal = false;
+	public static float lifeSteal = 0f;
 
 	void Update() {
 		// Debug.Log(swordDamage);
@@ -72,9 +72,9 @@ public class KnockBack : MonoBehaviour
 
 				if (gameObject.tag == "Weapon") {
 					enemyHealth.Damage(swordDamage);
-					if (lifeSteal == true) {
-						healthBar.Heal(0.7f);
-					}
+					
+					healthBar.Heal(lifeSteal * swordDamage);
+					
 					Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
 					if (enemy != null) {
 						Vector2 difference = enemy.transform.position - transform.position;
@@ -145,6 +145,8 @@ public class KnockBack : MonoBehaviour
 
 		if (other.gameObject.CompareTag("Boss") && (gameObject.tag == "Arrow" || gameObject.tag == "Weapon"
 					 || gameObject.tag == "silverArrow" || gameObject.tag == "iceArrow")) {
+
+			
 			if (gameObject.tag == "Arrow" || gameObject.tag == "silverArrow" || gameObject.tag == "iceArrow") {
 				gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
 				gameObject.GetComponent<SpriteRenderer>().enabled = false;
@@ -182,9 +184,9 @@ public class KnockBack : MonoBehaviour
 
 				if (gameObject.tag == "Weapon") {
 					enemyHealth.Damage(swordDamage);
-					if (lifeSteal == true) {
-						healthBar.Heal(swordDamage);
-					}
+					
+					healthBar.Heal(swordDamage * lifeSteal);
+					
 					Rigidbody2D enemy = other.GetComponent<Rigidbody2D>();
 					if (enemy != null) {
 						Vector2 difference = enemy.transform.position - transform.position;
@@ -222,5 +224,6 @@ public class KnockBack : MonoBehaviour
 			Destroy(gameObject);
 		}
 	}
+
 
 }
